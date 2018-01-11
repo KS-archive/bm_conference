@@ -13,6 +13,7 @@ import WebfontLoader from '@dr-kobros/react-webfont-loader';
 
 // Views
 import Home from './views/Home/Home';
+import Publication from './views/Publication/Publication';
 
 // Main styles import.
 import './scss/global.scss';
@@ -30,6 +31,7 @@ ReactDOM.render(
   <WebfontLoader config={config}>
     <Router history={customHistory}>
       <Switch>
+        <Route path="/Publication" component={Publication} />
         <Route path="/" component={Home} />
       </Switch>
     </Router>
