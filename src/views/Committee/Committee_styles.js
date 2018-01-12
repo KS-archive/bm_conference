@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 import { colorPalette } from '../../utils/styles';
 
-export const Header = styled.h1`
-  margin-top: 30px;
-  font-size: 30px;
-  color: ${colorPalette.blue};
+export const Container = styled.div`
+  display: grid;
+  width: 60%;
+  background-color: #fafafa;
 `;

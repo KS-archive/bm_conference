@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { Container } from '../../utils/styledComponents';
-import { Header } from './Committee_styles';
+import { Container } from './Committee_styles';
 import List from './List/List';
 import { council, committee } from './data';
 

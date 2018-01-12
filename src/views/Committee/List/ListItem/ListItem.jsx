@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { Container } from './ListItem_styles';
+import { Container, DegreeParagraph, NameParagraph, InstitutionParagraph } from './ListItem_styles';
 
 class App extends Component {
   render() {
     return (
       <Container>
-        <p>{this.props.item.title}</p>
-        <p>{this.props.item.name}</p>
-        <p>{this.props.item.institution}</p>
+        <DegreeParagraph>{this.props.item.title}</DegreeParagraph>
+        <NameParagraph>{this.props.item.name}</NameParagraph>
+        <InstitutionParagraph>{this.props.item.institution}</InstitutionParagraph>
       </Container>
     );
   }
