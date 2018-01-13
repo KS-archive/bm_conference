@@ -14,6 +14,7 @@ import WebfontLoader from '@dr-kobros/react-webfont-loader';
 // Views
 import Home from './views/Home/Home';
 import Committee from './views/Committee/Committee';
+import Payments from './views/Payments/Payments';
 
 // Main styles import.
 import './scss/global.scss';
@@ -31,8 +32,9 @@ ReactDOM.render(
   <WebfontLoader config={config}>
     <Router history={customHistory}>
       <Switch>
+        <Route path="/Payments" component={Payments} />
         <Route path="/committee" component={Committee} />
-        <Route path="/" component={Home} />        
+        <Route path="/" component={Home} />
       </Switch>
     </Router>
   </WebfontLoader>,
