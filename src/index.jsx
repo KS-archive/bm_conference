@@ -15,6 +15,8 @@ import WebfontLoader from '@dr-kobros/react-webfont-loader';
 import Home from './views/Home/Home';
 import Committee from './views/Committee/Committee';
 import Payments from './views/Payments/Payments';
+import Contact from './views/Contact/Contact';
+
 
 // Main styles import.
 import './scss/global.scss';
@@ -34,6 +36,7 @@ ReactDOM.render(
       <Switch>
         <Route path="/Payments" component={Payments} />
         <Route path="/committee" component={Committee} />
+        <Route path="/Contact" component={Contact} />
         <Route path="/" component={Home} />
       </Switch>
     </Router>
