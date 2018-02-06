@@ -26,12 +26,10 @@ export const Box = styled.div`
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 55px;
-
-
 `;
 export const Price = styled.div`
   padding-top: 12px;
-  padding-bottom:  12px;
+  padding-bottom: 12px;
   text-align: center;
   background-color: #095e8d;
   color: white;
@@ -50,5 +48,4 @@ export const Text = styled.div`
 export const Summary = styled.div`
   color: #757575;
   line-height: 1.5;
-
 `;
