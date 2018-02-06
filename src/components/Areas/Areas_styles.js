@@ -6,6 +6,7 @@ export const Header = styled.h1`
   font-size: 27px;
   font-weight: 500;
   text-align: center;
+  line-height: 1.4;
   color: ${colorPalette.darkGray};
 `;
 
@@ -23,13 +24,14 @@ export const Bold = styled.div`
   font-size: 18px;
   font-weight: 500;
   text-align: center;
+  line-height: 1.4;
   color: ${colorPalette.darkGray};
-  }
 `;
 
 export const Table = styled.div`
   width: 700px;
   margin: 0 auto 30px;
+  line-height: 1.4;
 
   &:last-child {
     margin-bottom: 0;
