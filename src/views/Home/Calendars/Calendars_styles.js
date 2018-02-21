@@ -12,6 +12,10 @@ export const MainContainer = Container.extend`
   @media (max-width: 740px) {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  @media (max-width: 400px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 
 export const Header = styled.h1`

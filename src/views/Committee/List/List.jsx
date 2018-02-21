@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { Container } from '../../../utils/styledComponents';
-import { Header, Title } from './List_styles';
+import { Title, Data } from './List_styles';
 import ListItem from './ListItem/ListItem';
 
 class App extends Component {
@@ -8,11 +7,11 @@ class App extends Component {
     return (
       <Fragment>
       <Title>{this.props.title}</Title>
-      <div>
+      <Data>
         {this.props.data.map((item) => {
           return <ListItem key={item.name} item={item} />
         })}
-      </div>
+      </Data>
       </Fragment>
     );
   }
