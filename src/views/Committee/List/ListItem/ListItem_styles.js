@@ -6,6 +6,7 @@ export const Container = styled.div`
   border: 1px solid ${colorPalette.grey};
   line-height: 1.4;
   border-radius: 4px;
+  background-color: #fff;
 `;
 
 export const DegreeParagraph = styled.p`

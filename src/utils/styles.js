@@ -4,5 +4,5 @@ export const colorPalette = {
   blue: '#095e8d',
   darkGrey: '#333333',
   grey: '#757575',
-  lightGray: '#cccccc',
+  lightGrey: '#cccccc',
 };

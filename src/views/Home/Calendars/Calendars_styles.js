@@ -24,7 +24,7 @@ export const Header = styled.h1`
   font-weight: 500;
   text-align: center;
   line-height: 1.4;
-  color: ${colorPalette.darkGray};
+  color: ${colorPalette.darkGrey};
   text-transform: uppercase;
 `;
 

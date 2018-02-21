@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { colorPalette } from '../../../utils/styles';
 
 export const Title = styled.h1`
   font-size: 30px;
@@ -6,6 +7,8 @@ export const Title = styled.h1`
   text-transform: uppercase;
   margin: 88px 0 32px;
   text-align: center;
+  line-height: 1.4;
+  color: ${colorPalette.darkGrey};
 `;
 
 export const Data = styled.div`

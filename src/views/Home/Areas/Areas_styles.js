@@ -7,7 +7,7 @@ export const Header = styled.h1`
   font-weight: 500;
   text-align: center;
   line-height: 1.4;
-  color: ${colorPalette.darkGray};
+  color: ${colorPalette.darkGrey};
 `;
 
 export const Description = styled.div`
@@ -15,7 +15,7 @@ export const Description = styled.div`
   font-size: 18px;
   text-align: center;
   line-height: 1.4;
-  color: ${colorPalette.gray};
+  color: ${colorPalette.grey};
 `;
 
 export const Bold = styled.div`
@@ -25,7 +25,7 @@ export const Bold = styled.div`
   font-weight: 500;
   text-align: center;
   line-height: 1.4;
-  color: ${colorPalette.darkGray};
+  color: ${colorPalette.darkGrey};
 `;
 
 export const Table = styled.div`
@@ -59,13 +59,13 @@ export const Row = styled.div`
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
-  color: ${colorPalette.gray};
+  color: ${colorPalette.grey};
   font-weight: 300;
   font-size: 18px;
   background-color: white;
-  border-right: 1px solid ${colorPalette.lightGray};
-  border-left: 1px solid ${colorPalette.lightGray};
-  border-bottom: 1px solid ${colorPalette.lightGray};
+  border-right: 1px solid ${colorPalette.lightGrey};
+  border-left: 1px solid ${colorPalette.lightGrey};
+  border-bottom: 1px solid ${colorPalette.lightGrey};
 
   &:last-child {
     border-radius: 0 0 5px 5px;
