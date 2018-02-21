@@ -21,6 +21,9 @@
       "array-callback-return": "off",
       "no-confusing-arrow": "off",
       "react/forbid-prop-types":"off",
-      "jsx-a11y/anchor-is-valid":"off"
+      "jsx-a11y/anchor-is-valid":"off",
+      "no-return-assign":"off",
+      "import/no-named-as-default":"off",
+      "import/no-named-as-default-member":"off"
     }
 }

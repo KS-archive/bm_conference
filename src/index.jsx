@@ -34,9 +34,9 @@ ReactDOM.render(
   <WebfontLoader config={config}>
     <Router history={customHistory}>
       <Switch>
-        <Route path="/Payments" component={Payments} />
-        <Route path="/committee" component={Committee} />
-        <Route path="/Contact" component={Contact} />
+        <Route path="/platnosci" component={Payments} />
+        <Route path="/organizatorzy" component={Committee} />
+        <Route path="/kontakt" component={Contact} />
         <Route path="/" component={Home} />
       </Switch>
     </Router>
