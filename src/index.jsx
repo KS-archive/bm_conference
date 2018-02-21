@@ -16,6 +16,7 @@ import Home from './views/Home/Home';
 import Committee from './views/Committee/Committee';
 import Payments from './views/Payments/Payments';
 import Contact from './views/Contact/Contact';
+import Publication from './views/Publication/Publication';
 
 
 // Main styles import.
@@ -35,6 +36,7 @@ ReactDOM.render(
     <Router history={customHistory}>
       <Switch>
         <Route path="/platnosci" component={Payments} />
+        <Route path="/publikacja" component={Publication} />
         <Route path="/organizatorzy" component={Committee} />
         <Route path="/kontakt" component={Contact} />
         <Route path="/" component={Home} />
