@@ -46,7 +46,5 @@ roku we Wrocławiu.
       <Row>Customer Intelligence w rozwoju badań marketingowych</Row>
       <Row>Triangulacja i hybrydyzacja w badaniach marketingowych</Row>
     </Table>
-
   </Container>
-
 );
