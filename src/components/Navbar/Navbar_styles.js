@@ -4,6 +4,7 @@ import { colorPalette } from '../../utils/styles';
 
 export const Container = styled.div`
   height: 80px;
+  z-index: 100;
   position: fixed;
   top: 0;
   left: 0;
@@ -23,6 +24,10 @@ export const Nav = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
 `;
 
 export const Item = styled(Link)`
