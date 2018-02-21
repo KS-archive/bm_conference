@@ -1,15 +1,12 @@
 import React, { Fragment } from 'react';
-import { Container } from '../../utils/styledComponents';
-import { Header } from './Home_styles';
 import Navbar from '../../components/Navbar/Navbar';
 import Hero from './Hero/Hero';
+import Areas from './Areas/Areas';
 
 export default () => (
   <Fragment>
     <Navbar activeIndex={0} />
     <Hero />
-    <Container>
-      <Header>Simple React Starter</Header>
-    </Container>
+    <Areas />
   </Fragment>
 );
