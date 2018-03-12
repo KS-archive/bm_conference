@@ -65,6 +65,7 @@ module.exports = {
 
     new webpack.DefinePlugin({
       __ROOT_URL__: JSON.stringify("http://localhost:8080/"),
+      __PATH__: JSON.stringify(""),
     }),
 
     new LodashModuleReplacementPlugin({

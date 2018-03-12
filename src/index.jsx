@@ -36,12 +36,12 @@ ReactDOM.render(
   <WebfontLoader config={config}>
     <Router history={customHistory}>
       <Switch>
-        <Route path="/platnosci" component={Payments} />
-        <Route path="/publikacja" component={Publication} />
-        <Route path="/organizatorzy" component={Committee} />
-        <Route path="/program" component={Program} />
-        <Route path="/kontakt" component={Contact} />
-        <Route path="/" component={Home} />
+        <Route path={`${__PATH__}/platnosci`} component={Payments} />
+        <Route path={`${__PATH__}/publikacja`} component={Publication} />
+        <Route path={`${__PATH__}/organizatorzy`} component={Committee} />
+        <Route path={`${__PATH__}/program`} component={Program} />
+        <Route path={`${__PATH__}/kontakt`} component={Contact} />
+        <Route path={`${__PATH__}/`} component={Home} />
       </Switch>
     </Router>
   </WebfontLoader>,
