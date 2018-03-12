@@ -16,6 +16,7 @@ import Home from './views/Home/Home';
 import Committee from './views/Committee/Committee';
 import Payments from './views/Payments/Payments';
 import Contact from './views/Contact/Contact';
+import Program from './views/Program/Program';
 import Publication from './views/Publication/Publication';
 
 
@@ -38,6 +39,7 @@ ReactDOM.render(
         <Route path="/platnosci" component={Payments} />
         <Route path="/publikacja" component={Publication} />
         <Route path="/organizatorzy" component={Committee} />
+        <Route path="/program" component={Program} />
         <Route path="/kontakt" component={Contact} />
         <Route path="/" component={Home} />
       </Switch>
