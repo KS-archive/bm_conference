@@ -44,6 +44,10 @@ export const Name = styled.div`
   @media (max-width: 700px) {
     font-size: 20px;
   }
+
+  @media (max-width: 580px) {
+    font-size: 18px;
+  }
 `;
 
 export const Title = styled.div`
@@ -52,6 +56,10 @@ export const Title = styled.div`
 
   @media (max-width: 700px) {
     font-size: 42px;
+  }
+
+  @media (max-width: 580px) {
+    font-size: 26px;
   }
 `;
 
@@ -62,6 +70,10 @@ export const Subtitle = styled.div`
 
   @media (max-width: 700px) {
     font-size: 32px;
+  }
+
+  @media (max-width: 580px) {
+    font-size: 21px;
   }
 `;
 
