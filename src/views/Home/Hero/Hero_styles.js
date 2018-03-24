@@ -10,7 +10,7 @@ export const Hero = styled.section`
   justify-content: center;
   align-items: center;
   position: relative;
-  background-color: #000;
+  background-color: #111;
 
   &::before {
     content: '';

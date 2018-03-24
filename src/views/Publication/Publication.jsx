@@ -24,13 +24,13 @@ export default () => (
             Informacja o wymogach edytorskich
           </DownloadItem>
         </a>
-        <a href="https://goo.gl/tTi5aR">
+        <a href="https://goo.gl/NsgCyJ">
           <DownloadItem key="Item1">
             <i className="fa fa-download" aria-hidden="true" />
             Szablon artykułu zgłaszanego do Prac Naukowych
           </DownloadItem>
         </a>
-        <a href="https://goo.gl/NsgCyJ">
+        <a href="https://goo.gl/tTi5aR">
           <DownloadItem key="Item1">
             <i className="fa fa-download" aria-hidden="true" />
             Instrukcja dotycząca edycji szablonu artykułu

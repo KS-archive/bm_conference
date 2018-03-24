@@ -2,12 +2,12 @@ export const council = [
   {
     title: 'prof. dr hab.',
     name: 'Krystyna Mazurek-Łopacińska',
-    institution:'Uniwersytet Ekonomiczny we Wrocławiu'
+    institution:'Uniwersytet Ekonomiczny we Wrocławiu - Przewodnicząca Rady Programowej'
   },
   {
     title: 'prof. dr hab.',
     name: 'Anna Dąbrowska',
-    institution:'Instytut Badań Rynku, Konsumpcji i Koniunktur'
+    institution:'Szkoła Główna Handlowa w Warszawie'
   },
   {
     title: 'prof. dr hab.',
@@ -100,7 +100,7 @@ export const council = [
     institution:'Uniwersytet Szczeciński'
   },
   {
-    title: 'dr hab.',
+    title: 'prof. UE, dr hab.',
     name: 'Magdalena Sobocińska',
     institution:'Uniwersytet Ekonomiczny we Wrocławiu'
   },
@@ -118,7 +118,7 @@ export const committee = [
     institution:'Przewodnicząca'
   },
   {
-    title: 'dr hab.',
+    title: 'prof. UE, dr hab.',
     name: 'Magdalena Sobocińska',
     institution:'Wiceprzewodnicząca'
   },

@@ -3,10 +3,9 @@ import { colorPalette } from '../../../../utils/styles';
 
 export const Container = styled.div`
   padding: 20px;
-  border: 1px solid ${colorPalette.grey};
   line-height: 1.4;
   border-radius: 4px;
-  background-color: #fff;
+  background-color: #ffffbf;
 `;
 
 export const DegreeParagraph = styled.p`
