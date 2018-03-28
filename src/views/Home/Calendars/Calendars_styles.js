@@ -6,7 +6,6 @@ export const MainContainer = Container.extend`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 32px;
-  padding-bottom: 120px;
   justify-items: center;
 
   @media (max-width: 740px) {

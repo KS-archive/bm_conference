@@ -3,17 +3,18 @@ import { Link } from 'react-router-dom';
 import { colorPalette } from '../../utils/styles';
 
 export const Container = styled.div`
-  height: 80px;
+  height: 100px;
   z-index: 100;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background-color: ${colorPalette.yellow};
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
+  border-bottom: 1px solid #ddd;
 
   @media (max-width: 460px) {
     padding: 0 12px;
@@ -21,11 +22,18 @@ export const Container = styled.div`
 `;
 
 export const Logo = styled.img`
-  height: 56px;
+  height: 72px;
   cursor: pointer;
+  margin-right: 16px;
 
   @media (max-width: 460px) {
     height: 48px;
+  }
+
+  &:last-of-type {
+    @media (max-width: 600px) {
+      display: none;
+    }
   }
 `;
 
@@ -47,14 +55,16 @@ export const Item = styled(Link)`
   height: 100%;
   font-size: 14px;
   font-weight: 500;
-  color: #fff;
+  color: ${props => props.active ? '#fff' : colorPalette.yellow};
   padding: 0 24px;
   text-transform: uppercase;
-  background-color: ${props => props.active && 'rgba(255, 255, 255, 0.25)'};
+  background-color: ${props => props.active && colorPalette.yellow};
+  transition: all 0.3s;
 
   &:hover {
     cursor: pointer;
-    background-color: ${props => !props.active && 'rgba(255, 255, 255, 0.15)'};
+    color: ${props => !props.active && '#fff'};
+    background-color: ${props => !props.active && colorPalette.yellow};
   }
 `;
 
@@ -63,18 +73,14 @@ export const MobileNav = styled.div`
   visibility: ${props => props.isOpen ? 'visible' : 'hidden'};
   opacity: ${props => props.isOpen ? 1 : 0};
   position: fixed;
-  top: 80px;
+  top: 100px;
   bottom: 0;
   left: 0;
   right: 0;
   background-color: ${colorPalette.yellow};
-  display: none;
+  display: flex;
+  flex-direction: column;
   transition: all 0.3s;
-
-  @media (max-width: 1200px) {
-    display: flex;
-    flex-direction: column;
-  }
 `;
 
 export const MobileItem = styled(Link)`
@@ -82,7 +88,7 @@ export const MobileItem = styled(Link)`
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: calc((100vh - 80px) / 6);
+  height: calc((100vh - 100px) / 6);
   font-size: 18px;
   font-weight: 500;
   color: #fff;
@@ -98,13 +104,10 @@ export const MobileItem = styled(Link)`
 
 export const BurgerIcon = styled.i`
   font-size: 32px;
-  color: #fff;
-  display: none;
-
-  @media (max-width: 1200px) {
-    display: block;
-    cursor: pointer;
-  }
+  color: ${colorPalette.yellow};
+  margin-left: auto;
+  display: block;
+  cursor: pointer;
 
   @media (max-width: 460px) {
     font-size: 24px;
