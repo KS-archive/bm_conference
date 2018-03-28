@@ -5,7 +5,7 @@ export const Container = styled.div`
   padding: 20px;
   line-height: 1.4;
   border-radius: 4px;
-  background-color: #ffffbf;
+  background-color: #eee;
 `;
 
 export const DegreeParagraph = styled.p`

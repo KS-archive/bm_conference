@@ -11,8 +11,8 @@ export default () => (
       <Bold>Katedra Badań Marketingowych</Bold>
       <Line>Uniwersytet Ekonomiczny we Wrocławiu</Line>
       <Line>ul. Komandorska 118/120, 53-345 Wrocław</Line>
-      <Bold>prof. UE, dr hab. Magdalena Sobocińska</Bold>
-      <Line>tel.: (71) 36 80 247,</Line>
+      <br />
+      <Line>tel.: (71) 36 80 247 (Prof. UE, dr hab. Magdalena Sobocińska),</Line>
       <Line>tel.: 501 396 764</Line>
       <Line>e-mail: badania.markt@ue.wroc.pl</Line>
     </Container>
