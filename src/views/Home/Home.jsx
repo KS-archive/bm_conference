@@ -4,6 +4,7 @@ import Hero from './Hero/Hero';
 import Areas from './Areas/Areas';
 import Calendars from './Calendars/Calendars';
 import LastConferences from './LastConferences/LastConferences';
+import Patronates from './Patronates/Patronates';
 
 export default () => (
   <Fragment>
@@ -11,6 +12,7 @@ export default () => (
     <Hero />
     <Areas />
     <Calendars />
+    <Patronates />
     <LastConferences />
   </Fragment>
 );
