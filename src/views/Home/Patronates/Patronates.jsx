@@ -6,6 +6,6 @@ export default () => (
     <Header>Patronat honorowy</Header>
     <Text>J.M. Rektor Uniwersytetu Ekonomicznego we Wrocławiu Prof. zw. dr hab. Andrzej Kaleta</Text>
     <Header>Patronat merytoryczny</Header>
-    <Logo src="/img/patronat.png" />
+    <Logo src={`${__ROOT_URL__}/img/patronat.png`} />
   </Fragment>
 );
