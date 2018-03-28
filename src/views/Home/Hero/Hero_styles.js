@@ -1,10 +1,10 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import { colorPalette } from '../../../utils/styles';
 
 export const Hero = styled.section`
   z-index: 0;
-  width: 100%;
+  width: 100vw;
   height: calc(100vh - 80px);
   display: flex;
   justify-content: center;

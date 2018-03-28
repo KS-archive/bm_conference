@@ -136,6 +136,8 @@ body {
   color: #212121;
   line-height: 1;
   background-color: #fbfbfb;
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 body::-webkit-scrollbar-track {

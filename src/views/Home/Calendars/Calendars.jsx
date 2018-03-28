@@ -15,7 +15,7 @@ export default () => (
       <Calendar date="30 wrzesień 2017" title="Zgłoszenie udziału" />
       <Calendar date="30 listopad 2017" title="Nadesłanie referatów" />
       <Calendar date="30 grudzień 2017" title="Wniesienie opłaty" />
-      <Calendar active date="20-22 maja 2017" title="Termin konferencji" />
+      <Calendar active date="20-22 maja 2018" title="Termin konferencji" />
     </MainContainer>
   </Fragment>
 );
