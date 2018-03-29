@@ -9,7 +9,7 @@ export default () => (
       <Subtitle>metody, trendy, zastosowania</Subtitle>
       <Place>Wrocław, 20-22 maja 2018</Place>
       <Buttons>
-        <Button to={`${__PATH__}/organizatorzy`}>Organizatorzy</Button>
+        <Button to={`${__PATH__}/organizatorzy`}>Rada programowa i komitet organizacyjny</Button>
         <Button to={`${__PATH__}/program`}>Program</Button>
         <Button to={`${__PATH__}/publikacja`}>Publikacja</Button>
       </Buttons>

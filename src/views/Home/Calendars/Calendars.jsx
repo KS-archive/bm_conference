@@ -12,9 +12,9 @@ export default () => (
   <Fragment>
     <Header>Kalendarium</Header>
     <MainContainer>
-      <Calendar date="30 wrzesień 2017" title="Zgłoszenie udziału" />
-      <Calendar date="30 listopad 2017" title="Nadesłanie referatów" />
-      <Calendar date="30 grudzień 2017" title="Wniesienie opłaty" />
+      <Calendar date="30 września 2017" title="Zgłoszenie udziału" />
+      <Calendar date="30 grudnia 2017" title="Nadesłanie referatów" />
+      <Calendar date="30 grudnia2017" title="Wniesienie opłaty" />
       <Calendar active date="20-22 maja 2018" title="Termin konferencji" />
     </MainContainer>
   </Fragment>
