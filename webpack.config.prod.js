@@ -71,8 +71,8 @@ module.exports = {
     }),
 
     new webpack.DefinePlugin({
-      __ROOT_URL__: JSON.stringify("https://knwd.pl/apps/konferencja/"),
-      __PATH__: JSON.stringify("/apps/konferencja"),
+      __ROOT_URL__: JSON.stringify("http://www.badania.marketingowe.ue.wroc.pl"),
+      __PATH__: JSON.stringify(""),
     }),
 
     new ShakePlugin(),

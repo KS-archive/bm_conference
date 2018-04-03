@@ -108,7 +108,7 @@ export const Button = styled(Link)`
   justify-content: center;
   background-color: ${colorPalette.blue};
   color: #fff;
-  height: 46px;
+  height: 56px;
   width: 140px;
   font-size: 16px;
   font-weight: 500;
@@ -120,7 +120,15 @@ export const Button = styled(Link)`
     background-color: #1872a3;
   }
 
+  &:first-child {
+    width: 180px;
+  }
+
   @media (max-width: 700px) {
     width: 80%;
+
+    &:first-child {
+      width: 80%;
+    }
   }
 `;

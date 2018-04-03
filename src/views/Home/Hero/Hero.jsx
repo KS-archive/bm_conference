@@ -2,7 +2,7 @@ import React from 'react';
 import { Hero, Middle, Buttons, Button, Name, Title, Subtitle, Place } from './Hero_styles';
 
 export default () => (
-  <Hero src={`${__ROOT_URL__}img/landing-bg.jpg`}>
+  <Hero src={`${__ROOT_URL__}/img/landing-bg.jpg`}>
     <Middle>
       <Name>KONFERENCJA</Name>
       <Title>Badania Marketingowe</Title>

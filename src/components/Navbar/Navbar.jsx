@@ -13,8 +13,8 @@ export default class Navbar extends PureComponent {
     return (
       <Fragment>
         <Container>
-          <Logo src={`${__ROOT_URL__}img/logo.jpg`} onClick={() => this.props.history.push('/')} />
-          <Logo src={`${__ROOT_URL__}img/Logo KBM.jpg`} onClick={() => this.props.history.push('/')} />
+          <Logo src={`${__ROOT_URL__}/img/logo.jpg`} onClick={() => this.props.history.push('/')} />
+          <Logo src={`${__ROOT_URL__}/img/Logo KBM.jpg`} onClick={() => this.props.history.push('/')} />
           {/* <Nav>
             <Item to={`${__PATH__}/`} active={activeIndex === 0}>Strona główna</Item>
             <Item to={`${__PATH__}/organizatorzy`} active={activeIndex === 1}>Rada programowa i komitet organizacyjny</Item>
